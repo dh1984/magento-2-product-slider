@@ -191,12 +191,12 @@ class Category extends Multiselect
      *
      * @return bool
      */
-    public function getNoDisplay()
-    {
-        $isNotAllowed = !$this->authorization->isAllowed('Mageplaza_Productslider::category');
+    // public function getNoDisplay()
+    // {
+    //     $isNotAllowed = !$this->authorization->isAllowed('Mageplaza_Productslider::category');
 
-        return $this->getData('no_display') || $isNotAllowed;
-    }
+    //     return $this->getData('no_display') || $isNotAllowed;
+    // }
 
     /**
      * @return mixed
